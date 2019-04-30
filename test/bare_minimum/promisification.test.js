@@ -6,6 +6,7 @@ describe('Promisification', function() {
   var promisificaion = require('../../exercises/bare_minimum/promisification.js');
 
   describe('getGitHubProfileAsync', function() {
+    
     var getGitHubProfileAsync = promisificaion.getGitHubProfileAsync;
 
     // Nock is a super cool library that makes it easy to test
